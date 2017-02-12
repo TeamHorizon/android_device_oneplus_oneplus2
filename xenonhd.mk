@@ -20,13 +20,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus2 device
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common xenonhd stuff.
+$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_oneplus2
+PRODUCT_NAME := xenonhd_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
+
+
+#XenonHD stuff
+WITH_SUPERSU := true
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.xenonhd.maintainer=MZO
+
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
