@@ -29,7 +29,8 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 
 
-#XenonHD stuff
+# XenonHD stuff
+
 ROOT_METHOD=magisk
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.xenonhd.maintainer=MZO
