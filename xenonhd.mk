@@ -35,6 +35,11 @@ ROOT_METHOD=magisk
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.xenonhd.maintainer=MZO
 
+# Extra prebuilt apps
+PRODUCT_PACKAGES += \
+	Adaway \
+	KernelAdiutor \
+	MiXplore
 
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
