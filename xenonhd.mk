@@ -30,7 +30,7 @@ PRODUCT_BRAND := OnePlus
 
 
 #XenonHD stuff
-WITH_SUPERSU := true
+ROOT_METHOD=magisk
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.xenonhd.maintainer=MZO
 
