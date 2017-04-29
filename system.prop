@@ -25,12 +25,16 @@ ro.bluetooth.a4wp=true
 ro.bluetooth.wipower=true
 
 # Camera
-persist.camera.HAL3.enabled=0
+camera.disable_zsl_mode=1
+persist.camera.zsl.mode=0
 persist.camera.cpp.duplication=false
 vidc.debug.perf.mode=2
 vidc.enc.dcvs.extra-buff-count=2
+<<<<<<< HEAD
 #media.stagefright.legacyencoder=true
 #media.stagefright.less-secure=true
+=======
+>>>>>>> 5053a04... oneplus2: HAL3
 persist.camera.hal.debug.mask=0
 media.camera.ts.monotonic=1
 camera2.portability.force_api=1
@@ -45,8 +49,12 @@ ro.config.hw_camera_bestShot=true
 persist.camera.tintless=enable
 persist.camera.4k2k.enable=1
 vidc.dec.120fps.enabled=1
+<<<<<<< HEAD
 ro.media.enc.jpeg.quality=100
 ro.media.enc.hprof.vid.fps=60
+=======
+>>>>>>> 5927aa5... oneplus2: HAL3
+>>>>>>> 5053a04... oneplus2: HAL3
 
 # CEC
 ro.hdmi.device_type=4
