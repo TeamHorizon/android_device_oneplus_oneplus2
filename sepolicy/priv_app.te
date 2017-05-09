@@ -1,2 +1,8 @@
 allow priv_app device:dir { read open };
 allow priv_app rfs_system_file:dir getattr;
+allow priv_app bluetooth_data_file:dir getattr;
+allow priv_app persist_file:dir search;
+allow priv_app radio_data_file:dir getattr;
+allow priv_app rfs_system_file:dir read;
+allow priv_app system_app_data_file:dir getattr;
+
